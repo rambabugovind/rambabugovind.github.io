@@ -1,0 +1,75 @@
+/*body{
+  margin: 0px;This line and below line included when position property is used in inner ...
+  padding: 0px;
+  background-image: url(images/light_fabric.png);
+  background-size: cover;
+}*/
+
+body {
+  height: 100%;
+  /*background-image: url("images/Bonneville_salt_flats.jpg");*/
+}
+
+a {
+  outline: 0;
+}
+
+.btns {
+  position: relative;
+  bottom: 50px;
+}
+
+/*.div1,.div2 {
+  position: relative;
+}*/
+
+.bg1 {
+  /*position: relative;/*affects .btns position*/
+  background-image: url("images/Bonneville_salt_flats.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+  width: auto;
+  height: 90vh;
+}
+
+/*@media (min-width: 600px) {
+  .bg1 {
+
+    background-image: url("images/Bonneville_salt_flats.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 700px;
+  }
+}*/
+
+.bg2 {
+  width: 100%;
+  height: auto;
+  /*background-image: url("images/Bonneville_salt_flats.jpg");*/
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #ffffff !important;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+/*.nav-tabs {
+  position: absolute;
+}*/
