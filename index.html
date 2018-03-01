@@ -32,8 +32,8 @@
   <div class="container-fluid bg1 text-center">
     <div class="btns">
       <div class="btn-group" role="group">
-        <button type="button" class="btn btn-outline-dark">CONTACT</button>
-        <button type="button" class="btn btn-outline-dark">PROFILE</button>
+        <button type="button" id="btn1" class="btn btn-outline-dark">CONTACT</button>
+        <button type="button" id="btn2" class="btn btn-outline-dark">PROFILE</button>
       </div>
       <!-- <div class="row">
         <div class="col btn1">
@@ -46,7 +46,7 @@
     </div>
   </div>
   <!-- <div class="container-fluid div2"> -->
-  <div class="row container-fluid profile-card">
+  <div id="profile" class="row container-fluid profile-card">
     <div class="col-12 col-sm-4 col-md-4">
       <div class="card border-light">
         <!-- <div class="card-header">Header</div> -->
@@ -78,21 +78,28 @@
       </div>
     </div>
   </div>
-  <div class="container contact">
-    <div class="row">
-      <i class="material-icons">person</i>
-    </div>
-    <div class="row">
-      <i class="material-icons">mail</i>
-    </div>
-    <div class="row">
-      <i class="material-icons">phone_iphone</i>
-    </div>    
+  <div class="container table-responsive contact">
+    <table class="table border-table">
+      <tbody>
+        <tr>
+          <td><i class="material-icons">person</i></td>
+          <td>Rambabu Govindaraj</td>
+        </tr>
+        <tr>
+          <td><i class="material-icons">mail</i></td>
+          <td>rambabugovind@gmail.com</td>
+        </tr>
+        <tr>
+          <td><i class="material-icons">phone_iphone</i></td>
+          <td>(+1)913-401-5586</td>
+        </tr>
+      </tbody>
+    </table>
   </div>
   <!-- include jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- include external js file after jQuery as ext.js contains jQuery elements -->
-  <!-- <script src="ext.js"></script> -->
+  <script src="script.js"></script>
   <!-- Following for bootstrap -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

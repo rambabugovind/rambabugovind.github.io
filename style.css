@@ -65,6 +65,26 @@ a {
   width: 100%;
 }
 
+.contact {
+  /*display: inline-block;*/
+  white-space: nowrap;
+}
+
+.table{
+  width: 1px;/*for shrink to fit*/
+  margin: 0 auto;/*To center table horizontally*/
+}
+
+.table td {
+    border-top: none !important;
+    /*white-space: nowrap;
+    width: 1%;*/
+}
+
+/*table.table.border-table {
+    border: 1px solid black;
+}*/
+
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
