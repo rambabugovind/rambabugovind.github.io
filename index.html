@@ -15,8 +15,8 @@
 </head>
 
 <body>
-  <div class="fixed-top div1">
-    <nav class="navbar navbar-expand navbar-dark bg-dark">
+  <div class="div1">
+    <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
       <div class="collapse navbar-collapse" id="nav-li">
         <a class="navbar-brand" href="#">RAMBABU GOVIND</a>
         <ul class="nav navbar-nav">
@@ -28,42 +28,50 @@
     </nav>
   </div>
   <div class="container-fluid bg1 text-center">
-    <div class="row justify-content-md-center btns">
-      <div class="col btn1">
-        <button class="btn btn-outline-dark rounded-0">CONTACT</button>
+    <div class="btns">
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-outline-dark">CONTACT</button>
+        <button type="button" class="btn btn-outline-dark">PROFILE</button>
       </div>
-      <div class="col btn2">
-        <button class="btn btn-outline-dark rounded-0">RESUME</button>
-      </div>
+      <!-- <div class="row">
+        <div class="col btn1">
+          <button class="btn btn-outline-dark rounded-0">CONTACT</button>
+        </div>
+        <div class="col btn2">
+          <button class="btn btn-outline-dark rounded-0">RESUME</button>
+        </div>
+      </div> -->
     </div>
   </div>
-  <div class="div2">
-    <div class="row">
-      <div class="col-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Beginner</h5>
-            <p class="card-text">React JS</p>
-            <a href="#" class="btn btn-primary">Go</a>
-          </div>
+  <!-- <div class="container-fluid div2"> -->
+  <div class="row container-fluid profile-card">
+    <div class="col-4">
+      <div class="card border-light">
+        <!-- <div class="card-header">Header</div> -->
+        <div class="card-body">
+          <h5 class="card-title">Beginner</h5>
+          <p class="card-text">React JS</p>
+          <a href="#" class="btn btn-primary">Go</a>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Intermediate</h5>
-            <p class="card-text">Angular JS</p>
-            <a href="#" class="btn btn-primary">Go</a>
-          </div>
+    </div>
+    <div class="col-4">
+      <div class="card border-light">
+        <!-- <div class="card-header">Header</div> -->
+        <div class="card-body">
+          <h5 class="card-title">Intermediate</h5>
+          <p class="card-text">Angular JS</p>
+          <a href="#" class="btn btn-primary">Go</a>
         </div>
       </div>
-      <div class="col-4">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Expert</h5>
-            <p class="card-text">JavaScript</p>
-            <a href="#" class="btn btn-primary">Go</a>
-          </div>
+    </div>
+    <div class="col-4">
+      <div class="card border-light">
+        <!-- <div class="card-header">Header</div> -->
+        <div class="card-body">
+          <h5 class="card-title">Expert</h5>
+          <p class="card-text">JavaScript</p>
+          <a href="#" class="btn btn-primary">Go</a>
         </div>
       </div>
     </div>
