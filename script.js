@@ -12,9 +12,9 @@ const contact1 = document.getElementById('contact1');
 profile.style.display = "none";
 contact1.style.display = "none";
 
-function insertContact() { //add '\' to escape new line
+function insertContact() {
   profile.style.display = "none";
-  contact1.style.display = "";
+  contact1.style.display = "";//to show div. u can use "block" but it spoils responsiveness
 }
 
 function insertCards() {

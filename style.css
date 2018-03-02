@@ -14,6 +14,20 @@ a {
   outline: 0;
 }
 
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+  color: #ffffff !important;
+}
+
 .bg1 {
   position: relative;/*affects .btns position*/
   text-align: center;
@@ -29,7 +43,15 @@ a {
 
 .btn {
   border-radius: 0;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
 
+.btng:focus {
+  /*outline: none;*/
+  box-shadow: none!important;
+  background: #343A40;
+  color: #ffffff;
 }
 
 .btns {
@@ -38,6 +60,20 @@ a {
   margin: auto;
   position: absolute;
   top: 70%; left: 0; bottom: 0; right: 0;
+}
+
+.btn-dark:hover, .btn-dark:active{
+  /*color: #000000;*/
+  background: #343A40;
+}
+
+/*.btn-dark {
+  box-shadow: o 6px #ab3c3c;
+  transition: none;
+}*/
+
+.btn-dark:focus {
+  /*box-shadow: none;/*!important;*/
 }
 
 /*@media (min-width: 700px) {
@@ -77,27 +113,34 @@ a {
 
 .table td {
     border-top: none !important;
+    letter-spacing: 3px;
     /*white-space: nowrap;
     width: 1%;*/
 }
+
+td.a:hover {
+  
+}
+
+/*.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}*/
 
 /*table.table.border-table {
     border: 1px solid black;
 }*/
 
-.navbar {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border: 0;
-  border-radius: 0;
-  margin-bottom: 0;
-  font-size: 12px;
-  letter-spacing: 5px;
-}
 
-.navbar-nav li a:hover {
-  color: #ffffff !important;
-}
 
 .nav-item {
   /*display: inline-block;*/
