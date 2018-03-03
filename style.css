@@ -72,6 +72,7 @@ a {
   transition: none;
 }*/
 
+
 .btn-dark:focus {
   /*box-shadow: none;/*!important;*/
 }
@@ -95,6 +96,43 @@ a {
   width: 100%;
 }
 
+#resume {
+  /*margin: 0 auto;
+  max-width: 700px;*/
+  text-align: center;
+}
+
+#link1 {
+  transition: all 0.5s;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#link1 span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#link1:hover span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#link1:hover span{
+  padding-right: 25px;
+}
+
+#link1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
 .profile-card {
   /*Below two props to center this div inside another div*/
   margin: 0 auto;
@@ -104,6 +142,8 @@ a {
 .contact {
   /*display: inline-block;*/
   white-space: nowrap;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .table{
@@ -119,7 +159,7 @@ a {
 }
 
 td.a:hover {
-  
+
 }
 
 /*.map-responsive{

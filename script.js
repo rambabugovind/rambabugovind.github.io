@@ -1,5 +1,3 @@
-
-
 var btn1 = document.querySelector('#btn1');
 var btn2 = document.querySelector('#btn2');
 
@@ -14,10 +12,16 @@ contact1.style.display = "none";
 
 function insertContact() {
   profile.style.display = "none";
-  contact1.style.display = "";//to show div. u can use "block" but it spoils responsiveness
+  contact1.style.display = ""; //to show div. u can use "block" but it spoils responsiveness
+  contact1.scrollIntoView ({
+    behavior: 'smooth'
+  });
 }
 
 function insertCards() {
   contact1.style.display = "none";
   profile.style.display = "";
+  profile.scrollIntoView ({
+    behavior: 'smooth'
+  });
 }
