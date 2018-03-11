@@ -102,13 +102,13 @@ a {
   text-align: center;
 }
 
-#link1 {
+#link1, #btn1, #btn2 {
   transition: all 0.5s;
   text-align: center;
   margin: 0 auto;
 }
 
-#link1 span {
+#link1 span, #btn1 span, #btn2 span {
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -123,20 +123,57 @@ a {
   transition: 0.5s;
 }
 
-#link1:hover span{
+#link1:hover span, #btn1:hover span, #btn2:hover span{
   padding-right: 25px;
+  padding-left: 25px;
 }
 
-#link1:hover span:after {
+#link1:hover span:after, #btn1:hover span:after, #btn2:hover span:after {
   opacity: 1;
   right: 0;
 }
 
+#btn1:hover span:after, #btn2:hover span:after {
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+/*#btn1, #btn2 {
+  transition: all 0.5s;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#btn1 span, #btn2 span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+
+#btn1:hover span, #btn2:hover span{
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+#btn1:hover span:after, #btn2:hover span:after {
+  opacity: 1;
+  right: 0;
+}*/
 
 .profile-card {
   /*Below two props to center this div inside another div*/
   margin: 0 auto;
   width: 100%;
+}
+
+.progress-bar {
+  background-color: #343A40;
+  background: linear-gradient(to right, #343A40 , #767A7F);
 }
 
 .contact {

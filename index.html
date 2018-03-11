@@ -18,7 +18,7 @@
 
 <body>
   <div class="div1">
-    <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark">
+    <nav class="navbar fixed-top navbar-expand navbar-dark"><!--bg-dark-->
       <div class="collapse navbar-collapse" id="nav-li">
         <a class="navbar-brand" href="#">RAMBABU GOVIND</a>
         <ul class="nav navbar-nav">
@@ -32,10 +32,14 @@
   <div class="container-fluid bg1 text-center">
     <div class="btns">
       <div class="btn-group" role="group">
-        <button type="button" id="btn1" class="btn btn-outline-dark btng">CONTACT</button>
-        <button type="button" id="btn2" class="btn btn-outline-dark btng">PROFILE</button>
+        <button type="button" id="btn1" class="btn btn-outline-dark btng"><span>CONTACT</span></button>
+        <!-- <button type="button" id="btn2" class="btn btn-outline-dark btng">PROFILE</button> -->
       </div>
-      <a href="Files/Resume_RambabuGovind.pdf" id="link1" class="btn btn-dark" target="_blank"><span>RESUME</span></a>
+      <div class="btn-group" role="group">
+        <!-- <button type="button" id="btn1" class="btn btn-outline-dark btng">CONTACT</button> -->
+        <button type="button" id="btn2" class="btn btn-outline-dark btng"><span>PROFILE</span></button>
+      </div>
+      <a href="Files/Resume_RambabuGovind.pdf" id="link1" class="btn btn-outline-dark btng" target="_blank"><span>RESUME</span></a>
       <!-- <div class="row">
         <div class="col btn1">
           <button class="btn btn-outline-dark rounded-0">CONTACT</button>
@@ -46,10 +50,11 @@
       </div> -->
     </div>
   </div>
-  <div id="resume">
+  <!-- <div id="resume">
     <a href="Files/Resume_RambabuGovind.pdf" id="link1" class="btn btn-dark" target="_blank"><span>RESUME</span></a>
-  </div>
-  <div id="profile" class="row container-fluid profile-card">
+  </div> -->
+
+  <!-- <div id="profile" class="row container-fluid profile-card">
     <div class="col-12 col-sm-4 col-md-4">
       <div class="card border-light">
         <div class="card-body">
@@ -75,6 +80,102 @@
           <p class="card-text">JavaScript</p>
           <a href="#" class="btn btn-primary">Go</a>
         </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="container-fluid">
+    <div id="profile" class="row">
+      <div class="col-3">
+        <span>About</span>
+      </div>
+      <div class="col-9">
+        <span>I am Rambabu, a December 2017 graduate student from UTA.</span>
+      </div>
+    </div>
+    <div id="skills" class="row">
+      <div class="col-3">
+        <span>Skillset</span>
+      </div>
+      <div class="col-9">
+        <div class="row">
+          <div class="col">
+            <span>JAVASCRIPT</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="col">
+            <span>HTML/CSS</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>ANGULAR JS</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="col">
+            <span>NODE.JS</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <span>RESPONSIVE WEB DESIGN</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="col">
+            <span>HTML/CSS</span>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="edu" class="row">
+      <div class="col-3">
+        <span>EDUCATION</span>
+      </div>
+      <div class="col-9">
+        <span>MASTERS IN COMPUTER SCIENCE</span><br/>
+        <span>UNIVERSITY OF TEXAS AT ARLINGTON</span><br/>
+
+        <span>BACHELORS IN COMPUTER SCIENCE AND ENGINEERING</span><br/>
+        <span>ANNA UNIVERSITY</span>
+      </div>
+    </div>
+    <div id="exp" class="row">
+      <div class="col-3">
+        <span>EXPERIENCE</span>
+      </div>
+      <div class="col-9">
+        <span>INFOSYS LTD</span><br/>
+        <span>System Engineer</span><br/>
+        <span>INFOSYS LTD</span><br/>
+        <span>Software Developer Intern</span>
+      </div>
+    </div>
+    <div id="portfolio" class="row">
+      <div class="col-3">
+        <span>PORTFOLIO</span>
+      </div>
+      <div class="col-9">
+      </div>
+    </div>
+    <div id="cntact" class="row">
+      <div class="col-3">
+        <span>CONTACT</span>
+      </div>
+      <div class="col-9">
       </div>
     </div>
   </div>
